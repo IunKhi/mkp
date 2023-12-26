@@ -103,7 +103,7 @@ int main() {
     double r_a = 69051.8;
     double a = (r_p + r_a) / 2;
     double e = 0.82764717;
-    double M = 4,87 * 10^24;
+    double M = 5 * 10^24;
     double epsilon = 1e-6;
 
     double E_iteration = calculateEccentricAnomalyByIteration(M, e, epsilon);
